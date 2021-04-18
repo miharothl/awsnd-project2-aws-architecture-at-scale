@@ -2,6 +2,15 @@
 
 ---
 
+# Task 1
+
+![image1](images/udacity-diagram-1)
+
+![image2](images/udacity-diagram-2)
+
+
+
+
 ## Project  Instructions
 
 ### Exercise 1
