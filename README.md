@@ -4,9 +4,9 @@
 
 # Task 1
 
-![image1](images/udacity-diagram-1)
+![image1](https://github.com/miharothl/awsnd-project2-aws-architecture-at-scale/blob/master/images/udacity-diagram-1.png)
 
-![image2](images/udacity-diagram-2)
+![image2](https://github.com/miharothl/awsnd-project2-aws-architecture-at-scale/blob/master/images/udacity-diagram-2.png)
 
 
 
