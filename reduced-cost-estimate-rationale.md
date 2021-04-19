@@ -13,7 +13,6 @@ Target a monthly estimate between $8,000-$10,000.
   | number of users                  | 50.000 |           |
   | number of usages per day         |     10 |           |
   | number of REST calls per usage   |     10 |           |
-  |----------------------------------|--------|-----------|
   |                                  |        | 5.000.000 |
 
   | S3 - Photo data per day per 30 days |                    | Total         |
@@ -23,7 +22,6 @@ Target a monthly estimate between $8,000-$10,000.
   | photo size                          | 5 MB               |               |
   | number of days                      | 30                 |               |
   | each user x connections             | 100                |               |
-  |-------------------------------------|--------------------|---------------|
   | Storage                             |                    | 15.000.000 MB |
   | PUT calls                           | 50k * 2 * 30       | 3.000.000     |
   | GET calls                           | 50k * 2 * 30 * 100 | 300.000.000   |
@@ -37,7 +35,6 @@ Target a monthly estimate between $8,000-$10,000.
   | video size 1 minute                 | 100 MB             |                |
   | number of days                      | 30                 |                |
   | each user x connections             | 100                |                |
-  |-------------------------------------|--------------------|----------------|
   | Storage                             |                    | 150.000.000 MB |
   | PUT calls                           | 50k * 1 * 30       | 1.500.000      |
   | GET calls                           | 50k * 1 * 30 * 100 | 150.000.000    |
@@ -48,7 +45,6 @@ Target a monthly estimate between $8,000-$10,000.
   |-----------------------------|--------|------------|
   | number of users             | 50.000 |            |
   | configuration data per user |  10 MB |            |
-  |-----------------------------|--------|------------|
   |                             |        | 500.000 MB |
 
 [Initial Estimates](https://calculator.aws/#/estimate?id=f52541185a42f6b045a88719cba6341ac511bdd7)
