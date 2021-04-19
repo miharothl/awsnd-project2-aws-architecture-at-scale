@@ -1,0 +1,12 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+awsnd-p2-initial-cost-estimate,US East (N. Virginia),S3 Photo,S3 Standard,0,3587.8,43053.60,USD,S3 Standard storage (15 TB per month)
+awsnd-p2-initial-cost-estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,493.65,5923.80,USD,Number of NAT Gateways (1)
+awsnd-p2-initial-cost-estimate,US East (N. Virginia),,Application Load Balancer,0,149.65,1795.80,USD,Number of Application Load Balancers (2)
+awsnd-p2-initial-cost-estimate > availability zone 1,US East (N. Virginia),application-servers,Amazon EC2,0,715.39,8584.68,USD,"Operating system (Linux), Quantity (10), Pricing strategy (Standard Reserved Instances 1 Year No UpFront), Storage amount (100 GB), Instance type (t4g.xlarge)"
+awsnd-p2-initial-cost-estimate > availability zone 1,US East (N. Virginia),,Amazon RDS for MySQL,0,2633.76,31605.12,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3 TB), Quantity (1), Instance type (db.m2.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+awsnd-p2-initial-cost-estimate > availability zone 1,US East (N. Virginia),web-servers,Amazon EC2,0,715.39,8584.68,USD,"Operating system (Linux), Quantity (10), Pricing strategy (Standard Reserved Instances 1 Year No UpFront), Storage amount (100 GB), Instance type (t4g.xlarge)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
