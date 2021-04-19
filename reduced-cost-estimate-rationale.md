@@ -57,17 +57,17 @@ Baseline:
 
 Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What services will you modify to meet this new budget? Export the updated costs in a CSV file named Reduced_Cost_Estimate.csv and write up a brief narrative of the changes you made in the CSV file below the cost estimate.
 
-### Increased Budget 
-
-Your budget has been increased to $20,000. What resources will you add and why?
-
-[Increased Budget Estimates](https://calculator.aws/#/estimate?id=205c45a6ff82a1ac4d57edbd4feaa41c1e68e392)
+[Reduced Budget Estimates](https://calculator.aws/#/estimate?id=3e4b60d9cb3d916280f27cb1fb405ac7f9a5856e)
 
 Changes:
- - redundancy (2 availability zones)
- - increased S3 storage to support both photo and video (beta) sharing
-
+  - no redundancy (1 availability zone)
+  - photo sharing only (reduced S3 storage by 1/3)
+  - upfront web and application server payment
+  - reduced RDB instance
+  
 Rationale:
 
-Increased budget offered an opportunity to set up a redundant system using two availability zones in case of an outage in one of the zones.
-I was also able to increase S3 storage and enable sharing of both photo and video content (beta) on the social media site.
+To meet the reduced budget requirements and limit the lost functionality of the social media website, I change the payment for EC2 web and application servers to upfront. Further, I have to decrease the computing power of the RDB instance and decrease the monthly S3 storage by one-third.
+
+
+
